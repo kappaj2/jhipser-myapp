@@ -1,0 +1,26 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "user_name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "5",
+            "fieldValidateRulesMaxlength": "45"
+        },
+        {
+            "fieldName": "passwd",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20161201061257",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "andre",
+    "pagination": "no"
+}

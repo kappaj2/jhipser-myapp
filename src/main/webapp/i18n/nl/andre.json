@@ -1,0 +1,23 @@
+{
+    "hipsterstoreApp": {
+        "andre" : {
+            "home": {
+                "title": "Andres",
+                "createLabel": "Maak een nieuwe Andre",
+                "createOrEditLabel": "Maak of wijzig een Andre",
+                "search": "Search for Andre"
+            },
+            "created": "A new Andre is created with identifier {{ param }}",
+            "updated": "A Andre is updated with identifier {{ param }}",
+            "deleted": "A Andre is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Bent u zeker dat u Andre {{ id }} wilt verwijderen?"
+            },
+            "detail": {
+                "title": "Andre"
+            },
+            "user_name": "User Name",
+            "passwd": "Passwd"
+        }
+    }
+}

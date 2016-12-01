@@ -1,0 +1,25 @@
+{
+    "hipsterstoreApp": {
+        "whishList" : {
+            "home": {
+                "title": "Whish Lists",
+                "createLabel": "Create a new Whish List",
+                "createOrEditLabel": "Create or edit a Whish List",
+                "search": "Search for Whish List"
+            },
+            "created": "A new Whish List is created with identifier {{ param }}",
+            "updated": "A Whish List is updated with identifier {{ param }}",
+            "deleted": "A Whish List is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Whish List {{ id }}?"
+            },
+            "detail": {
+                "title": "Whish List"
+            },
+            "name": "Name",
+            "creationDate": "Creation Date",
+            "hidden": "Hidden",
+            "user": "User"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "user",
+            "otherEntityName": "user",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "login",
+            "ownerSide": true
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "creationDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "hidden",
+            "fieldType": "Boolean"
+        }
+    ],
+    "changelogDate": "20161201060637",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "whish_list",
+    "pagination": "pagination"
+}

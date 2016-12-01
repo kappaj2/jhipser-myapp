@@ -37,5 +37,13 @@
            timeToLiveSeconds="3600">
     </cache>
     
+    <cache name="za.co.ajk.store.domain.WhishList"
+        timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="za.co.ajk.store.domain.Andre"
+        timeToLiveSeconds="3600">
+    </cache>
+
     <!-- jhipster-needle-ehcache-add-entry -->
 </ehcache>

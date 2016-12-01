@@ -1,0 +1,35 @@
+
+<div>
+    <h2><span data-translate="hipsterstoreApp.whishList.detail.title">Whish List</span> {{vm.whishList.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span data-translate="hipsterstoreApp.whishList.name">Name</span></dt>
+        <dd>
+            <span>{{vm.whishList.name}}</span>
+        </dd>
+        <dt><span data-translate="hipsterstoreApp.whishList.creationDate">Creation Date</span></dt>
+        <dd>
+            <span>{{vm.whishList.creationDate | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span data-translate="hipsterstoreApp.whishList.hidden">Hidden</span></dt>
+        <dd>
+            <span>{{vm.whishList.hidden}}</span>
+        </dd>
+        <dt><span data-translate="hipsterstoreApp.whishList.user">User</span></dt>
+        <dd>
+            {{vm.whishList.userLogin}}
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="whish-list-detail.edit({id:vm.whishList.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-xs hidden-sm" data-translate="entity.action.edit"> Edit</span>
+    </button>
+</div>
